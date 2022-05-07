@@ -23,6 +23,7 @@ public class EmployeeSearchPage extends CommonMethods {
 
     @FindBy(id="searchBtn")
     public WebElement searchButton;
+    public WebElement addEmployeeOption;
 
     public EmployeeSearchPage(){
         PageFactory.initElements(driver, this);
