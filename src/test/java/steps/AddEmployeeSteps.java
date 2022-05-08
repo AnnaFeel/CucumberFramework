@@ -86,7 +86,7 @@ public class AddEmployeeSteps extends CommonMethods {
         Iterator<Map<String, String>> itr = newEmployees.iterator();
         //it checks whether the next element exist or not
         while (itr.hasNext()){
-            //it returns the ket and value for employees
+            //it returns the key and value for employees
             Map<String, String> mapNewEmp = itr.next();
             System.out.println(mapNewEmp.get("FirstName"));
             System.out.println(mapNewEmp.get("MiddleName"));
