@@ -150,4 +150,41 @@ package - convert your code to packages
 
 
 
+-------------------------------------------------------------------------------------------------------
+
+API Notes
+Class 5
+
+Rest assured API
+
+It is DSL (domain specific language)
+It is java based library that is used to automation rest API
+
+giver, when, then
+
+Rest assured follows the functionality of BDD
+Pre condition - request preparation, request specification
+
+Use given keyword to prepare the request
+Use when keyword, when hitting the end point (send the request)
+Use then keyword, when expected response
+
+NOTE: baseURI = base URL
+
+Hamcrest matchers -
+It is a popular framework that helps us to create the matcher objects.
+
+prettyPrint - it is used to print the response in console
+
+-------------------------------------------------------------------------------------------------------
+
+Class 6
+
+
+
+
+
+
+
+
 
